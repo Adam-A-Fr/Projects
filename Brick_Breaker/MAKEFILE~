@@ -1,0 +1,8 @@
+prog: main.o
+	gcc -o Projet main.o -lTableauNoir -lm
+main.o:PROJET.c
+	gcc -o main.o -c PROJET.c -lTableauNoir -lm
+
+
+
+
